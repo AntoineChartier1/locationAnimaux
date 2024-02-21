@@ -1,0 +1,15 @@
+:root {
+    --bg-color: hsl(204, 28%, 93%);
+    --secondary-color: hsl(0, 14%, 81%);
+    --third-color: hsl(207, 24%, 82%);
+    --blue: hsl(207, 73%, 69%);
+    --black: hsl(200, 3%, 22%);
+  }
+
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
