@@ -5,19 +5,9 @@ import Header from "./header"
 
 const Layout = ({ pageTitle, children }) => {
 
-    const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+
     return (
         <div className={container} >
-            <header>{data.site.siteMetadata.title}</header>
-            <meta name="description" content="Your description" />
             <Header />
             <main>
                 <h1>{pageTitle}</h1>

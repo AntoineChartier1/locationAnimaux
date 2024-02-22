@@ -1,19 +1,17 @@
-import * as React from 'react'
-import Seo from '../../components/seo'
-
+import * as React from "react";
+import Seo from "../../components/seo";
+import Layout from "../../components/layout";
 
 const PageChat = ({ title }) => {
-    
-
   return (
-    <div>
-        <h1>Page Chat</h1>
+    <Layout pageTitle="Page Chat">
+      <div>
         <p>je suis la pages des chats</p>
-    </div>
-  )
-}
+      </div>
+    </Layout>
+  );
+};
 
-export const Head = () => <Seo title="les chats" />
+export const Head = () => <Seo title="les chats" />;
 
-
-export default PageChat
+export default PageChat;
