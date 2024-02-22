@@ -7,7 +7,7 @@ const IndexPage = () => {
   return (
 
     <Layout pageTitle="Accueil">
-      <p>je suis la page d'acceuil</p>
+      <p>je suis la page d'acceuil avec un build</p>
     </Layout>
 
   )
